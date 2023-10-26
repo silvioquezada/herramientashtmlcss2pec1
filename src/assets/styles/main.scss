@@ -1,7 +1,10 @@
 @import "npm:@fortawesome/fontawesome-free/css/all.css";
 
+*{
+  box-sizing: border-box;
+}
+
 body {
-  
   margin: 0;
   padding: 0;
 
@@ -35,8 +38,6 @@ body {
   align-items: center;
   flex: 100px;
   height: 100px;
-
-  
 }
 
 .aling-center {
@@ -242,16 +243,20 @@ a {
 }
 
 .input-group label{
+  margin-bottom: 2%;
+
+  display: block;
+
   font-weight: bold;
   color: #49515a;
-  display: block;
-  margin-bottom: 2%;
 }
 
 .form-control {
-  border: 2px solid #d3d3d3d1;
-  border-radius:  5px;
+  padding:  10px;
+
   display: block;
   width: 90%;
-  padding:  10px;
+
+  border-radius:  5px;
+  border: 2px solid #d3d3d3d1;
 }
