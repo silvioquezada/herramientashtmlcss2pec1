@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
 
-  background-color:  #dae3e7;
+  background-color:  rgb(218, 227, 231);
 
   font-family: 'Lato', arial, sans-serif;
   font-size: 16px;
@@ -22,8 +22,7 @@ a {
 
   color: #434343;
   text-decoration: none;
-}
-
-a:hover {
-  font-weight: bold;
+  &:hover {
+    font-weight: bold;
+  }
 }

@@ -43,8 +43,8 @@
   flex-direction: column;
   flex-wrap: wrap;
 
-  background-color: #fff;
-  border: 1px solid #e5e5e5;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(229, 229, 229);
 }
 
 
@@ -64,7 +64,7 @@
 }
 
 .image {
-  color: #778492;
+  color: rgb(119, 132, 146);
   font-size: 80px;
   text-align: center;
 }
@@ -81,7 +81,7 @@
   font-family: 'Montserrat', sans-serif;
   font-size: 38px;
   font-weight: bold;
-  color: #49515a;
+  color: rgb(73, 81, 90);
 }
 
 .text-medium {
@@ -89,7 +89,7 @@
   padding: 1px;
 
   font-size: 24px;
-  color: #778492;
+  color: rgb(119, 132, 146);
 }
 
 .title {
@@ -97,7 +97,7 @@
   padding: 1px;
 
   font-size: 24px;
-  color: #434343;
+  color: rgb(73, 81, 90);
 }
 
 .button {
@@ -108,7 +108,7 @@
   width: 200px;
 
   font-size: 16px;
-  color: #000000;
+  color: rgb(0, 0, 0);
 
   background-color: #d8d5d5;
   border: 2px solid #d8d5d5;
@@ -117,14 +117,14 @@
 }
 
 .color-blue {
-  color: #fff;
+  color: rgb(255, 255, 255);
 
   background-color: #3498db;
   border: 2px solid #3498db;
 }
 
 .color-green {
-  color: #fff;
+  color: rgb(255, 255, 255);
 
   background-color: #54ba4e;
   border: 2px solid #54ba4e;
@@ -150,11 +150,11 @@
   width: 100%;
 
   border-radius:  5px;
-  border: 2px solid #d3d3d3d1;
+  border: 2px solid rgb(218, 227, 231);
 }
 
 .icon {
-  color: #778492;
+  color: rgb(119, 132, 146);
   font-size: 32px;
   text-align: center;
 }
