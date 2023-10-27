@@ -1,12 +1,10 @@
 body {
   margin: 0;
   padding: 0;
-
-  background-color:  rgb(218, 227, 231);
-
-  font-family: 'Lato', arial, sans-serif;
+  
+  font-family: $font;
   font-size: 16px;
-  color: #434343;
+  color: $color-text-content;
 }
 
 span {
@@ -20,7 +18,7 @@ a {
   margin-bottom:  2%;
   padding: 0;
 
-  color: #434343;
+  color: $color-text-content;
   text-decoration: none;
   &:hover {
     font-weight: bold;

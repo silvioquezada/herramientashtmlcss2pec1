@@ -26,10 +26,7 @@
 
 
 
-.card {
-  //margin: 10px;
-  //padding: 30px;
-  
+.card { 
   margin-top: 10px;
   margin-bottom: 10px;
   margin-left: 10px;
@@ -43,8 +40,8 @@
   flex-direction: column;
   flex-wrap: wrap;
 
-  background-color: rgb(255, 255, 255);
-  border: 1px solid rgb(229, 229, 229);
+  background-color: $color-white;
+  border: 1px solid $color-border;
 }
 
 
@@ -64,7 +61,7 @@
 }
 
 .image {
-  color: rgb(119, 132, 146);
+  color: $color-secondary;
   font-size: 80px;
   text-align: center;
 }
@@ -77,11 +74,9 @@
   margin: 1px;
   padding: 1px;
 
- 
-  font-family: 'Montserrat', sans-serif;
   font-size: 38px;
   font-weight: bold;
-  color: rgb(73, 81, 90);
+  color: $color-primary;
 }
 
 .text-medium {
@@ -89,7 +84,7 @@
   padding: 1px;
 
   font-size: 24px;
-  color: rgb(119, 132, 146);
+  color: $color-secondary;
 }
 
 .title {
@@ -97,7 +92,7 @@
   padding: 1px;
 
   font-size: 24px;
-  color: rgb(73, 81, 90);
+  color: $color-primary;
 }
 
 .button {
@@ -108,26 +103,26 @@
   width: 200px;
 
   font-size: 16px;
-  color: rgb(0, 0, 0);
+  color: $color-text-content;
 
-  background-color: #d8d5d5;
-  border: 2px solid #d8d5d5;
+  background-color: $color-white;
+  border: 2px solid $color-text-content;
   border-radius: 4px;
   cursor: pointer;
 }
 
 .color-blue {
-  color: rgb(255, 255, 255);
+  color: $color-white;
 
-  background-color: #3498db;
-  border: 2px solid #3498db;
+  background-color: $color-blue;
+  border: 2px solid $color-blue;
 }
 
 .color-green {
-  color: rgb(255, 255, 255);
+  color: $color-white;
 
-  background-color: #54ba4e;
-  border: 2px solid #54ba4e;
+  background-color: $color-green;
+  border: 2px solid $color-green;
 }
 
 .input-group{
@@ -150,11 +145,11 @@
   width: 100%;
 
   border-radius:  5px;
-  border: 2px solid rgb(218, 227, 231);
+  border: 2px solid $background-color-container;
 }
 
 .icon {
-  color: rgb(119, 132, 146);
+  color: $color-secondary;
   font-size: 32px;
   text-align: center;
 }
