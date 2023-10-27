@@ -1,0 +1,11 @@
+a {
+  margin-top: 2%;
+  margin-bottom:  2%;
+  padding: 0;
+
+  color: $color-text-content;
+  text-decoration: none;
+  &:hover {
+    font-weight: bold;
+  }
+}

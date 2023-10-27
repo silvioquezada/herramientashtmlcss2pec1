@@ -1,15 +1,8 @@
 @import "npm:@fortawesome/fontawesome-free/css/all.css";
-
-@import "sass/settings.scss";
-
-@import "sass/tools.scss";
-
-@import "sass/generic.scss";
-
-@import "sass/element.scss";
-
-@import "sass/object.scss";
-
-@import "sass/components.scss";
-
-@import "sass/utilities.scss";
+@import "imports/settings.imports";
+@import "imports/tools.imports";
+@import "imports/generics.imports";
+@import "imports/elements.imports";
+@import "imports/objects.imports";
+@import "imports/components.imports";
+@import "imports/utilities.imports";

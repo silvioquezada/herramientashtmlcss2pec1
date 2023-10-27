@@ -13,13 +13,3 @@
   font-weight: $font-weight;
   color: $color;
 }
-
-%flexbox-column {
-  display: flex;
-  flex-direction: column;
-}
-
-%flexbox-row {
-  display: flex;
-  flex-direction: row;
-}
