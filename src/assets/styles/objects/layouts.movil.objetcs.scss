@@ -42,8 +42,6 @@
   @extend %flexbox-column;
   flex: 400px;
   height: auto;
-
-  border: 1px solid $color-border;
 }
 
 .sidebar {
@@ -54,6 +52,4 @@
   
   flex: 50px;
   height: auto;
-
-  border: 1px solid $color-border;  
 }
